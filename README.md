@@ -17,7 +17,7 @@ Aplicación móvil para leer códigos QR usando la cámara del dispositivo, seg�
 2. Ejecuta `ionic cordova plugin add phonegap-plugin-barcodescanner` para instalar Barcode Scanner plugin.
 3. Ejecuta `ionic cordova plugin add cordova-plugin-inappbrowser` para instalar App Browser Launcher plugin.
 4. Ejecuta `ionic cordova plugin add cordova-plugin-contact` para instalar Manage Contacts plugin.
-5. Tú necesitas obtener una Google Maps API Key para visualizar el mapa. Obtenla la API Key [aqui] (https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en#key)
+5. Tú necesitas obtener una Google Maps API Key para visualizar el mapa.
 6. Abre el archivo en src/app/app.module.ts e ingresa tu API Key aqui
    ```ts
     imports: [
