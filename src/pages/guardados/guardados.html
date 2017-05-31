@@ -1,0 +1,21 @@
+<ion-header>
+
+    <ion-navbar color="primary">
+        <ion-title>Historial</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+    <ion-list *ngIf="historial.length > 0">
+        <button ion-item *ngFor="let data of historial; let i= index" (click)="abrir_scan(i)">
+			{{ data.info }}
+			<p>
+				{{ data.tipo }}
+			</p>
+		</button>
+    </ion-list>
+    <p *ngIf="historial.length === 0" text-center>Historial vacio</p>
+</ion-content>
