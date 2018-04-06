@@ -6,6 +6,8 @@ Aplicación móvil para leer códigos QR usando la cámara del dispositivo, seg�
 + Si son coordenadas abre un mapa para visualizar el punto
 + Si es un vcard registra el contacto en el dispositivo (requiere Manage Contacts cordova plugin)
 
+Proyecto realizado en el curso **ionic 2 y ionic 3: Crea apps para Android e iOS desde cero.** de **udemy**
+
 ## Empezar ￼  ￼
 
 * Clona el repo: `https://github.com/oscarsolis/qr-app-ionic3.git`
